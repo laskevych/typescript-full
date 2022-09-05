@@ -9,7 +9,7 @@ class Resp<D, E> {
 }
 
 const respOne = new Resp<string, number>('test', 5);
-const respTwo = new Resp<number, string>('test', 5);
+const respTwo = new Resp<number, string>(5, 'test');
 
 class HttpResp<F> extends Resp<[], string> {
     code?: F;
