@@ -1,4 +1,4 @@
-# Notes of TypeScript course.
+# Notes of TypeScript course
 
 ## TypeScript с нуля - полный курс и паттерны проектирования
 
