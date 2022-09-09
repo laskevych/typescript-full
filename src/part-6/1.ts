@@ -1,1 +1,4 @@
-const a: string = 'Hello';
+(() => {
+    const a: string = 'Hello';
+})();
+

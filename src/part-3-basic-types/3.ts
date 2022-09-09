@@ -1,4 +1,5 @@
-const skills: string[] = ['javascript', 'typescript', 'nodejs'];
+(() => {
+    const skills: string[] = ['javascript', 'typescript', 'nodejs'];
 
 // for(const skill of skills) {
 //     console.log(skill);
@@ -94,6 +95,4 @@ const key = (animal: string) => animal === 'test2';
 
 console.log(animals.some(key));
 
-
-
-
+})();

@@ -16,19 +16,23 @@
 
 const animalsList: string[] = ['cat', 'dog', 'tiger'];
 
-function deleteLastElement(items: string[]): string[] {
-    items.pop()
+(() => {
+    function deleteLastElement(items: string[]): string[] {
+        items.pop()
+    
+        return items;
+    };
+    
+    function editArray(items: string[]): string {
+        items.reverse();
+    
+        return items.join(' <> ');
+    };
+    
+    console.log(editArray(animalsList));
+    
+})();
 
-    return items;
-};
-
-function editArray(items: string[]): string {
-    items.reverse();
-
-    return items.join(' <> ');
-};
-
-console.log(editArray(animalsList));
 
 
 
